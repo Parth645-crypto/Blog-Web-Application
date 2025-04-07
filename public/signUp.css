@@ -1,0 +1,35 @@
+.container {
+    max-width: 298px;
+    max-height: 413.63px;
+}
+
+body {
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    position: relative;
+}
+
+.back {
+    position: absolute; /* Position the button absolutely */
+    top: 140px; /* Distance from the top */
+    left: 400px; /* Distance from the left */
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Bootstrap primary color */
+    font-size: 16px; /* Font size */
+}
+
+@media (max-width: 1024px) { /* Tablets */
+    .back {
+        top: 60px;
+        left: 30px;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile Devices */
+    .back {
+        top: 40px;
+        left: 10px;
+    }
+}
