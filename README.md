@@ -21,7 +21,7 @@ After logging in, users can write a blog and are redirected to the homepage upon
 
 1. Clone the repo: https://github.com/parth645-crypto/Blog-Web-Application.git
   
-2. Navigate into the project folder: cd Blod-Web-Application
+2. Navigate into the project folder: cd your_repo_name
 
 3. Install dependencies: npm install
  
